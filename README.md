@@ -10,6 +10,15 @@ Aşağıdaki grafikte, robotun yerel minimum (local minima) tuzağı olan U şek
 
 ![Modifiye VFH Simülasyon Sonucu](sonuc_grafigi.png)
 
+## Ek Analizler (Performans ve Hata Toleransı)
+Geliştirilen sistemin hata toleransını ve klasik algoritmalarla işlemci yükü kıyaslamasını gösteren analizler aşağıda sunulmuştur. Bu grafikleri üreten simülasyon kodlarına `ek_grafikler.py` dosyasından ulaşabilirsiniz.
+
+### 1. Sensör Füzyonu Doğruluk (Accuracy) Analizi
+![Sensör Füzyonu Hata Payı](sensor_fuzyon.png)
+
+### 2. CPU İşlemci Yükü (A* vs Modifiye VFH)
+![CPU Kullanım Yükü](cpu_analiz.png)
+
 ## Kurulum ve Çalıştırma
 Simülasyon saf Python ile yazılmıştır. Çalıştırmak için sisteminizde `numpy` ve `matplotlib` kütüphanelerinin yüklü olması yeterlidir:
 ```bash
