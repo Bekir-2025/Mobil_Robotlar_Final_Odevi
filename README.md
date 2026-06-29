@@ -24,3 +24,4 @@ Simülasyon saf Python ile yazılmıştır. Çalıştırmak için sisteminizde `
 ```bash
 pip install numpy matplotlib
 python main.py
+Fusion_And_CPU_Analysis.py
